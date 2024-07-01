@@ -1,0 +1,23 @@
+{
+  "name": "ptraing/module-custom-order-number",
+  "version": "1.0.0",
+  "description": "Custom Order Number by ptraing",
+  "type": "magento2-module",
+  "require": {
+      "php": "~8.1.0||~8.2.0||~8.3.0",
+      "ptraing/core": "1.*",
+      "magento/framework": "103.0.*",
+      "magento/module-sales": "103.0.*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Ptraing\\CustomOrderNumber\\": ""
+    }
+  }
+}
